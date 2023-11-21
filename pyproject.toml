@@ -1,0 +1,40 @@
+[project]
+name = "worldautovc-gui"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "SuzukiDaishi", email = "zukky.rikugame@gmail.com" }
+]
+dependencies = [
+    "setuptools>=68.2.2",
+    "PyAudio>=0.2.14",
+    "numpy>=1.24.4",
+    "torch>=2.1.1",
+    "torchvision>=0.16.1",
+    "torchaudio>=2.1.1",
+    "pyworld==0.3.2",
+    "types-pyaudio>=0.2.16.7",
+    "PySimpleGUIQt>=0.35.0",
+    "PySide2>=5.15.2.1",
+    "librosa>=0.10.1",
+    "soundfile>=0.12.1",
+    "resemblyzer>=0.1.4",
+    "noisereduce>=3.0.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "black>=23.11.0",
+    "mypy>=1.7.0",
+    "ruff>=0.1.6",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
