@@ -36,5 +36,8 @@ dev-dependencies = [
     "ruff>=0.1.6",
 ]
 
+[tool.rye.scripts]
+app = { cmd = "python src/app.py" }
+
 [tool.hatch.metadata]
 allow-direct-references = true
