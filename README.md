@@ -1,15 +1,18 @@
 # worldautovc-gui
 
-MacOS only
+WorldAutoVCのGUI版です．  
+  
+**MacOS only**
 
-## 使い方
+## インストール
 
 先に`Rye`をインストールしておく必要があります  
 [`Rye`のインストール方法](https://rye-up.com/guide/installation/)
-  
-
 
 ```
+# クローン
+git clone https://github.com/SuzukiDaishi/WorldAutoVC_GUI.git
+cd WorldAutoVC_GUI
 
 # WorldAutoVCの重みをダウンロード
 FILE_ID=1OfRQf3aBqz0PgMLrKUacxaWieVX_YG1E
@@ -21,5 +24,9 @@ mv ./world_autovc_jp_step001800.pth ./models/world_autovc_jp_step001800.pth
 
 # 入っていない場合
 brew install portaudio
-sudo rye sync
+
+# アプリの準備
+sudo rye sync --no-lock
 ```
+
+## 
