@@ -29,9 +29,17 @@ brew install portaudio
 sudo rye sync --no-lock
 ```
 
+### 動画解説
+
+https://youtu.be/CA4KSlq-Wkk?si=ezDmdvy6Qp3G1d5o
+
 ## 使い方
 
 ```
 cd WorldAutoVC_GUI
 rye run app 
 ```
+
+### 動画解説
+
+https://youtu.be/buL3xYj2gr8
